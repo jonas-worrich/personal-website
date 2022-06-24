@@ -1,0 +1,46 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+
+.social-cards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 10px;
+}
+
+.personal-social-card {
+  display: flex;
+  align-items: center;
+  width: 43%;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  gap: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  word-break: break-word;
+  /* Boxshadow_01
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.154); */
+}
+
+.personal-social-card h3 {
+  text-transform: uppercase;
+}
+
+.personal-social-card p {
+  flex-wrap: wrap;
+}
+
+.social-card-account {
+  color: gray;
+  font-size: small;
+  font-style: italic;
+}
+
+.social-profile-picture {
+  width: 8rem;
+}
