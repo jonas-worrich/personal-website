@@ -1,4 +1,4 @@
-footer {
+.footer {
   justify-content: center;
   padding-top: 20px;
   margin-bottom: 15px;
@@ -6,7 +6,7 @@ footer {
   height: 30px;
 }
 
-footer ul {
+.footer-bar {
   padding: 10px 0 10px 0;
   display: flex;
   justify-content: center;
@@ -14,28 +14,28 @@ footer ul {
   list-style: none;
 }
 
-footer li {
+.footer_item {
   font-weight: 300;
   font-size: 0.7rem;
 }
 
-footer a {
+.footer_item a {
   color: white;
 }
 
-footer a:link {
+.footer_item a:link {
   text-decoration: none;
 }
 
-footer a:visited {
+.footer_item a:visited {
   color: white;
   font-style: italic;
 }
 
-footer a:hover {
+.footer_item a:hover {
   font-weight: 400;
 }
 
-footer a:active {
+.footer_item a:active {
   color: white;
 }

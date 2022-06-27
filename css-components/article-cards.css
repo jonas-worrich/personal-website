@@ -1,4 +1,4 @@
-.social-cards {
+.article-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -6,7 +6,7 @@
   gap: 10px;
 }
 
-.personal-social-card {
+.article-card {
   display: flex;
   align-items: center;
   width: 45%;
@@ -17,30 +17,48 @@
   word-break: break-word;
 }
 
-.personal-social-card h3 {
+.article-card_heading {
   text-transform: uppercase;
 }
 
-.personal-social-card p {
+.article-card_teaser {
   flex-wrap: wrap;
 }
 
-.personal-social-card a {
+.article-card_heading a {
+  text-decoration: none;
   color: black;
   text-decoration: none;
 }
 
-.personal-social-card a:hover {
+.article-card_heading a:link {
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+
+.article-card_heading a:hover {
   font-weight: 800;
   text-decoration: underline;
 }
 
-.social-card-account {
+.article-card_readmore a {
   color: gray;
   font-size: small;
   font-style: italic;
 }
 
-.social-profile-picture {
+.article-card_readmore a:link {
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+
+.article-card_readmore a:hover {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.article_card-image {
   width: 8rem;
 }

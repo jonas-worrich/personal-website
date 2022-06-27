@@ -1,4 +1,4 @@
-nav ul {
+.nav-bar {
   width: 100%;
   display: flex;
   box-sizing: border-box;
@@ -7,15 +7,15 @@ nav ul {
   justify-content: center;
 }
 
-nav li a {
+.nav-bar_item_link a {
   color: white;
 }
 
-nav li a:link {
+.nav-bar_item_link a:link {
   text-decoration: none;
   color: white;
 }
 
-nav li a:hover {
+.nav-bar_item_link a:hover {
   font-weight: 800;
 }

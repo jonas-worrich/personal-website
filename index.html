@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width= 100vw, initial-scale=1.0" />
-    <title>Jonas Worrich</title>
+    <title>Möwen-Wissen für ganz spezielle Menschen</title>
+    <meta
+      name="“description“"
+      content="Erfahre alles über Deine liebsten Vögel!
+    Die Möwe ist mehr als Fischbrötchen-Dieb, der Deinen Ausflug in Seebäder an
+    Nordsee und Ostsee kaputtmacht."
+    />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +20,13 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header">
       <section>
         <nav>
-          <ul>
-            <li><a href="#start">Start</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-            <li><a href="#bio">Bio</a></li>
+          <ul class="nav-bar">
+            <li class="nav-bar_item_link"><a href="#start">Start</a></li>
+            <li class="nav-bar_item_link"><a href="#kontakt">Kontakt</a></li>
+            <li class="nav-bar_item_link"><a href="#bio">Bio</a></li>
           </ul>
         </nav>
       </section>
@@ -38,109 +44,109 @@
           hinten oder fehlt bei einigen Arten.
         </p>
       </section>
-      <!-- social-cards start here-->
-      <section class="social-cards">
-        <!-- Twitter-Card starts here -->
-        <section class="personal-social-card">
+      <!-- article-cards start here-->
+      <section class="article-box">
+        <!-- Braunkopfmöwe-Card starts here -->
+        <section class="article-card">
           <img
-            class="social-profile-picture"
+            class="article_card-image"
             src="/images/bird-01.jpg"
             alt="Bild einer Möwe"
           />
           <div>
-            <h3>
+            <h3 class="article-card_heading">
               <a href="https://de.wikipedia.org/wiki/Braunkopfmöwe"
                 >Braunkopfmöwe</a
               >
             </h3>
-            <p>
+            <p class="article-card_teaser">
               Ihr Vorkommen konzentriert sich im Hochland von Tibet in Höhen
               zwischen 3000m und 4500m.
             </p>
-            <p class="social-card-account">
+            <p class="article-card_readmore">
               <a href="https://de.wikipedia.org/wiki/Braunkopfmöwe"
                 >Chroicocephalus brunnicephalus</a
               >
             </p>
           </div>
         </section>
-        <!-- Twitter-Card ends here -->
-        <!-- Facebook-Card starts here -->
-        <section class="personal-social-card">
+        <!-- Braunkopfmöwe-Card ends here -->
+        <!-- Graukopfmöwe-Card starts here -->
+        <section class="article-card">
           <img
-            class="social-profile-picture"
+            class="article_card-image"
             src="/images/bird-02.jpg"
             alt="Bild einer Möwe"
           />
           <div>
-            <h3>
+            <h3 class="article-card_heading">
               <a href="https://de.wikipedia.org/wiki/Graukopfmöwe"
                 >Graukopfmöwe</a
               >
             </h3>
-            <p>
+            <p class="article-card_teaser">
               Sie kommt in mehreren großen und kleinen Teilarealen vor, die über
               Afrika und Südamerika zerstreut liegen.
             </p>
-            <p class="social-card-account">
+            <p class="article-card_readmore">
               <a href="https://de.wikipedia.org/wiki/Graukopfmöwe"
                 >Chroicocephalus cirrocephalus</a
               >
             </p>
           </div>
         </section>
-        <!-- Facebook-Card ends here -->
-        <!-- Whatever-Card starts here -->
-        <section class="personal-social-card">
+        <!-- Graukopfmöwe-Card ends here -->
+        <!-- Schwarzkopfmöwe-Card starts here -->
+        <section class="article-card">
           <img
-            class="social-profile-picture"
+            class="article_card-image"
             src="/images/bird-03.jpg"
             alt="Bild einer Möwe"
           />
           <div>
-            <h3>
+            <h3 class="article-card_heading">
               <a href="https://de.wikipedia.org/wiki/Schwarzkopfmöwe"
                 >Schwarzkopfmöwe</a
               >
             </h3>
-            <p>
+            <p class="article-card_teaser">
               Die Schwarzkopfmöwe ist mit einer Länge von 39 Zentimetern und
               einer Flügelspannweite von 98 Zentimetern eine relativ kleine
               Möwenart.
             </p>
-            <p class="social-card-account">
+            <p class="article-card_readmore">
               <a href="https://de.wikipedia.org/wiki/Schwarzkopfmöwe"
                 >Ichthyaetus melanocephalus</a
               >
             </p>
           </div>
         </section>
-        <!-- Whatever-Card ends here -->
-        <!-- Lunch-Card starts here -->
-        <section class="personal-social-card">
+        <!-- Schwarzkopfmöwe-Card ends here -->
+        <!-- Silberkopfmöwe-Card starts here -->
+        <section class="article-card">
           <img
-            class="social-profile-picture"
+            class="article_card-image"
             src="/images/bird-04.jpg"
             alt="Bild einer Möwe"
           />
           <div>
-            <h3>
+            <h3 class="article-card_heading">
               <a href="https://de.wikipedia.org/wiki/Silberkopfmöwe"
                 >Silberkopfmöwe</a
               >
             </h3>
-            <p>
+            <p class="article-card_teaser">
               Eine mittelgroße, weiß und grau gezeichnete, australische
               Möwenart.
             </p>
-            <p class="social-card-account">
+            <p class="article-card_readmore">
               <a href="https://de.wikipedia.org/wiki/Silberkopfmöwe"
                 >Chroicocephalus novaehollandiae</a
               >
             </p>
           </div>
         </section>
-        <!-- Lunch-Card ends here -->
+        <!-- Silberkopfmöwe-Card ends here -->
       </section>
       <!-- social-cards end here-->
       <section class="intro">
@@ -173,13 +179,15 @@
         </ol>
       </section>
     </main>
-    <footer>
-      <ul>
-        <li><a href="/impressum">Impressum</a></li>
-        <li><a href="/datenschutz">Datenschutzerklärung</a></li>
-        <li><a href="/cookies">Cookies</a></li>
-        <li><a href="/hilfe">Hilfe</a></li>
-        <li><a href="/kontakt">Kontakt</a></li>
+    <footer class="footer">
+      <ul class="footer-bar">
+        <li class="footer_item"><a href="/impressum">Impressum</a></li>
+        <li class="footer_item">
+          <a href="/datenschutz">Datenschutzerklärung</a>
+        </li>
+        <li class="footer_item"><a href="/cookies">Cookies</a></li>
+        <li class="footer_item"><a href="/hilfe">Hilfe</a></li>
+        <li class="footer_item"><a href="/kontakt">Kontakt</a></li>
       </ul>
     </footer>
   </body>
