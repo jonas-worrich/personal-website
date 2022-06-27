@@ -1,0 +1,21 @@
+nav ul {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+}
+
+nav li a {
+  color: white;
+}
+
+nav li a:link {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  font-weight: 800;
+}
