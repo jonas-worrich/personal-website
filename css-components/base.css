@@ -1,0 +1,28 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(209, 209, 209);
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+
+p,
+li {
+  font-weight: 300;
+}
+
+.image-description {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 0;
+}
